@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkshop=self.webpackChunkshop||[]).push([[468],{9669:function(n,e,s){s.r(e),s.d(e,{default:function(){return u}});var t=s(173);function u(){return(0,t.jsx)("h1",{children:"PDP!!!"})}u.getInitialProps=async()=>({})}}]);

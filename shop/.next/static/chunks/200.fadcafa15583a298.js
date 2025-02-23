@@ -1,0 +1,1 @@
+(self.webpackChunkshop=self.webpackChunkshop||[]).push([[200],{6819:function(p,s,e){p.exports=e(6311)}}]);

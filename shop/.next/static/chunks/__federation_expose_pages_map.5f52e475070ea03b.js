@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkshop=self.webpackChunkshop||[]).push([[19],{5767:function(p,s,h){h.r(s),s.default={"/shop":"./shop","/p/*":"./pdp"}}}]);
