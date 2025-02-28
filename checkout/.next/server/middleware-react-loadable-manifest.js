@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST='{"pages\\\\_app.js -> home/nav":{"id":6072,"files":[]},"pages\\\\index.js -> home/home":{"id":7828,"files":[]}}';

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkshop=self.webpackChunkshop||[]).push([[412],{2054:function(e,s,o){o.r(s);var u=o(6572);s.default=function(e){let[s,o]=(0,u.useState)(null);(0,u.useEffect)(()=>{console.log("some custom hook")},[])}}}]);
