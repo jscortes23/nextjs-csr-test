@@ -2,7 +2,7 @@
   "name": "home-v14",
   "version": "0.1.0",
   "scripts": {
-    "dev": "rm -rf .next && set NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3001",
+    "dev": "rm -rf .next && set NEXT_PRIVATE_LOCAL_WEBPACK=true && next dev -p 3001",
     "build": "set NEXT_PRIVATE_LOCAL_WEBPACK=true && next build",
     "start": "next start -p 3001"
   },

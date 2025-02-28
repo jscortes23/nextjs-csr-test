@@ -2,7 +2,7 @@
   "name": "shop-v14",
   "version": "0.1.0",
   "scripts": {
-    "dev": "rm -rf .next && set NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3002",
+    "dev": "rm -rf .next && set NEXT_PRIVATE_LOCAL_WEBPACK=true && next dev -p 3002",
     "build": "set NEXT_PRIVATE_LOCAL_WEBPACK=true && next build",
     "start": "next start -p 3002"
   },
