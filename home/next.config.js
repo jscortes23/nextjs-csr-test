@@ -13,6 +13,7 @@ module.exports = {
           },
           exposes: {
             './nav': './components/nav.js',
+            './modalOTP': './components/modalOTP.js',
             './home': './pages/index.js',
             './pages-map': './pages-map.js',
           },

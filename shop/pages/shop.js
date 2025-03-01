@@ -1,5 +1,9 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import Head from 'next/head';
+import dynamic from 'next/dynamic'
+
+const ModalOTP = dynamic(() => import('home/modalOTP'))
+// let ModalOTP = lazy(() => import('home/modalOTP'))
 
 const Shop = props => (
   <div>
@@ -9,6 +13,7 @@ const Shop = props => (
     </Head>
 
     <div className="hero">
+      <ModalOTP text='bogota' />
       <h1>Shop Page</h1>
       <h3 className="title">This is a federated page owned by localhost:3002</h3>
     </div>

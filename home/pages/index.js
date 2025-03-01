@@ -2,10 +2,12 @@ import React, { Fragment, Suspense } from 'react';
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import { lazy } from 'react';
+import ModalOTP from '../components/modalOTP';
+
 let useCustomHook;
 let RemoteTitle = () => null;
 if (process.browser) {
-  //useCustomHook = require('shop/customHook').default;
+  useCustomHook = require('shop/customHook').default;
   RemoteTitle = lazy(() => {
     return import('checkout/title');
   });
@@ -14,7 +16,7 @@ console.log('test');
 
 const Home = ({ loaded }) => {
   if (process.browser) {
-    // useCustomHook();
+    useCustomHook();
   }
   return (
     <div>
@@ -33,18 +35,7 @@ const Home = ({ loaded }) => {
         </p>
 
         <div className="row">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Learn more about Next.js in the documentation.</p>
-          </a>
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Next.js Learn &rarr;</h3>
-            <p>Learn about Next.js by following an interactive tutorial!</p>
-          </a>
-          <a href="https://github.com/zeit/next.js/tree/master/examples" className="card">
-            <h3>Examples &rarr;</h3>
-            <p>Find other example boilerplates on the Next.js GitHub.</p>
-          </a>
+          <ModalOTP text='Cali' />
         </div>
       </div>
 
